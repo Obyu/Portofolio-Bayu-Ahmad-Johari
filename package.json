@@ -11,8 +11,11 @@
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-alert-dialog": "^1.1.14",
+    "@radix-ui/react-aspect-ratio": "^1.1.7",
+    "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-popover": "^1.1.14",
     "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-toast": "^1.2.14",
     "@tailwindcss/typography": "^0.5.16",
     "@typescript-eslint/eslint-plugin": "^8.34.0",
     "autoprefixer": "^10.4.21",
@@ -23,9 +26,11 @@
     "next-themes": "^0.4.6",
     "postcss": "^8.5.4",
     "react": "^19.0.0",
+    "react-day-picker": "^9.7.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-intersection-observer": "^9.16.0",
+    "recharts": "^2.15.3",
     "tailwind": "^4.0.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7"
