@@ -448,7 +448,7 @@ export default function Home() {
                       Programming
                     </h3>
                     <div className="grid grid-cols-1 gap-4">
-                      {["Laravel", "JavaScript", "Python"].map((skill, _index) => (
+                      {["Laravel", "JavaScript", "Python"].map((skill) => (
                         <div
                           key={skill}
                           className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center hover:bg-white/30 transition-all duration-300 shadow-lg border border-white/20"
@@ -476,7 +476,7 @@ export default function Home() {
                       Sosial
                     </h3>
                     <div className="grid grid-cols-1 gap-4">
-                      {["Adaptasi", "Teamwork"].map((skill, _index) => (
+                      {["Adaptasi", "Teamwork"].map((skill) => (
                         <div
                           key={skill}
                           className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center hover:bg-white/30 transition-all duration-300 shadow-lg border border-white/20"

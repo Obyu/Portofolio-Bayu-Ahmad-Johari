@@ -10,7 +10,11 @@ interface TimeBasedBackgroundProps {
   scrollY: number
 }
 
-export function TimeBasedBackground({ timeOfDay, prevTimeOfDay, isTransitioning, scrollY }: TimeBasedBackgroundProps) {
+export function TimeBasedBackground({
+   timeOfDay,
+  prevTimeOfDay: _prevTimeOfDay,   
+  isTransitioning: _isTransitioning,
+  scrollY: _scrollY, }: TimeBasedBackgroundProps) {
   const [clouds, setClouds] = useState<
     Array<{ id: number; x: number; y: number; size: number; speed: number; delay: number }>
   >([])
