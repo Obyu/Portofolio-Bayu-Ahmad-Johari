@@ -43,7 +43,7 @@ export function TotoroLoader({ onLoadComplete }: TotoroLoaderProps) {
           style={{ width: `${progress}%` }}
         ></div>
       </div>
-      <p className="text-white mt-4 font-medium">Loading Totoro's World... {Math.round(progress)}%</p>
+      <p className="text-white mt-4 font-medium">{`Loading Totoro's World... `}{Math.round(progress)}%</p>
     </div>
   )
 }
